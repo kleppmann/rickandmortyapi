@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.egemsoft.application.rickandmortyapi: DEBUG
+ms:
+  root:
+    url: /v1/rickandmortyapi/api
+  full:
+    url: http://localhost:8080/v1/rickandmortyapi/api
+
+client:
+  rickandmortyapi:
+    url: https://rickandmortyapi.com/api
+
+pagination:
+  countLimit: 20
+
+executer:
+  threadCount: 25
+
